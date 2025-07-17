@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9fb;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #3a8dde, #6ab7f5);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.main-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: white;
+  color: #3a8dde;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.main-button:hover {
+  background-color: #3a8dde;
+  color: white;
+}
+
+.section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.testimonials .testimonial {
+  margin: 1.5rem auto;
+  background: #eef6fb;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 600px;
+  font-style: italic;
+}
+
+.testimonials strong {
+  display: block;
+  margin-top: 0.5rem;
+  color: #007acc;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
